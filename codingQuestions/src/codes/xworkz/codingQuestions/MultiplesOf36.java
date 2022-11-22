@@ -1,3 +1,5 @@
+// A program to print multiples of 3 and 6 in a given array.
+
 package codes.xworkz.codingQuestions;
 
 public class MultiplesOf36 {

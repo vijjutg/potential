@@ -1,3 +1,5 @@
+//A program to print and count the even numbers in the array.
+
 package codes.xworkz.codingQuestions;
 
 import java.util.Scanner;

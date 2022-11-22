@@ -1,3 +1,5 @@
+//Check whether the given number is palindrom or not.
+
 package codes.xworkz.codingQuestions;
 
 public class NumberPalindrome {

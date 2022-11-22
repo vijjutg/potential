@@ -1,3 +1,5 @@
+//A program to find the frequency of a given character in a string.
+
 package codes.xworkz.codingQuestions;
 
 public class FrequencyOfCharacter {

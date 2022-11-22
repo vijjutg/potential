@@ -1,3 +1,5 @@
+//A program to check whether given number is prime number or not.
+
 package codes.xworkz.codingQuestions;
 
 public class PrimeNumber {

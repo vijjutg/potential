@@ -1,3 +1,5 @@
+//A program to find the frequency of a given digit in a number.
+
 package codes.xworkz.codingQuestions;
 
 public class FrequencyOfDigit {

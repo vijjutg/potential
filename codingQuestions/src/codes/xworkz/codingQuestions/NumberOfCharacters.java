@@ -1,3 +1,5 @@
+//A program to count the number of characters in the given string.
+
 package codes.xworkz.codingQuestions;
 
 public class NumberOfCharacters {

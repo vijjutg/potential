@@ -8,7 +8,7 @@ public class CountCharacters {
 		
 		int length = 0;
 		String str = "Vijayalakshmi";
-		for (char c1 : str.toCharArray())
+		for (@SuppressWarnings("unused") char c1 : str.toCharArray())
 			length++;
 		System.out.println("Length of string is : "+ length);
 

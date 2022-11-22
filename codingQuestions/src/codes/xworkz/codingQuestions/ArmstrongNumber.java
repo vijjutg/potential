@@ -1,3 +1,8 @@
+/*Check whether given number is Armstrong number or not
+ * Ex:- 3 = 3^1 = 3
+ *      153 = 1^3 + 5^3 + 3^3 = 153
+ *      1634 = 1^4 + 6^4 + 3^4 + 4^4 = 1634 */
+
 package codes.xworkz.codingQuestions;
 
 import java.util.Scanner;
@@ -33,6 +38,7 @@ public class ArmstrongNumber {
 	public static void main(String[] args) {
 		
 		int num;
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner (System.in);
 		System.out.println("enter the limit : ");
 		num = scan.nextInt();

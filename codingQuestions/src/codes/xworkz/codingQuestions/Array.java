@@ -1,3 +1,5 @@
+//Given an array of integers, return a new array with each value doubled.
+
 package codes.xworkz.codingQuestions;
 
 public class Array {

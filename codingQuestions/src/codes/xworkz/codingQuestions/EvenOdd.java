@@ -1,3 +1,5 @@
+//Check whether given number is even or odd.
+
 package codes.xworkz.codingQuestions;
 
 public class EvenOdd {

@@ -1,3 +1,5 @@
+//A program to find the factorial of the given number.
+
 package codes.xworkz.codingQuestions;
 
 public class Factorial {
