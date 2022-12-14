@@ -1,4 +1,4 @@
-/* Function takes two arguments :
+/* Function takes two arguments : 
  * current fathers name age (years)
  * current age of his son 
  * Calculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old)
