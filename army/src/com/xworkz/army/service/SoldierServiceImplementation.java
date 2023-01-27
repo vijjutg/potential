@@ -30,18 +30,16 @@ public class SoldierServiceImplementation implements SoldierService {
 		if (!violation.isEmpty()) {
 			System.err.println("Error is there..");
 			violation.forEach(c -> System.err.println(c.getMessage()));
-			return false;
-		} 
-		else 
-		{
+
+		} else {
 			System.out.println("No validation errors...");
 
 			boolean saved = repo.save(dto);
 			System.out.println("The data saved to repo : " + saved);
-
 			return true;
+
 		}
 
+		return false;
 	}
-
 }

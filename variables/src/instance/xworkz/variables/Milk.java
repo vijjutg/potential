@@ -33,6 +33,4 @@ public class Milk {
 		brand = "Nandini";
 
 	}
-
-
 }

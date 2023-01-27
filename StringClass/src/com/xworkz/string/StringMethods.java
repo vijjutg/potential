@@ -40,7 +40,7 @@ public class StringMethods {
 		
 		System.out.println("-------------------------------------------------------------------");
 		
-		String[] str3 = str.split("i");
+		String[] str3 = str.split(",");
 		
 		for(int i=0; i<str3.length; i++) {
 			System.out.println(str3[i]);

@@ -7,7 +7,7 @@ public class SoldierRepositoryImplementation implements SoldierRepository {
 	@Override
 	public boolean save(SoldierDto dto) {
 		System.out.println("Saved dto ....");
-		return false;
+		return true;
 	}
 
 }

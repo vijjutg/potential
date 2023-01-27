@@ -9,15 +9,13 @@ public class SoldierRunner {
 
 	public static void main(String[] args) {
 		
-		SoldierDto dto = new SoldierDto(2, "Ajay Kumar", "Topper", "India");
+		SoldierDto dto = new SoldierDto(2, "Ajay kumar", "Topper", "India");
 		
 		SoldierServiceImplementation service = new SoldierServiceImplementation();
-		service.ValidateAndSave(dto);
 		
-		SoldierRepository ref = new SoldierRepositoryImplementation();
+		SoldierRepositoryImplementation ref = new SoldierRepositoryImplementation();
 		service.setRepository(ref);
-		
-		System.out.println(service);
+		service.ValidateAndSave(dto);
 
 	}
 
